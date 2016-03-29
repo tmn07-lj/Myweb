@@ -1,0 +1,537 @@
+header{
+	background-color: rgba(0,0,0,0.2);
+	color: white;
+	position: relative;
+}
+nav{
+	height: 50px;
+	background-color: transparent;
+	background-color: rgba(0,0,0,0.3);
+}
+nav ul{
+	list-style: none;
+	margin: 0px;
+		float: right;
+}
+nav ul li ,nav .logo{
+	display: inline-block;
+	line-height: 50px;
+
+	margin: 0 20px 0 0;
+}
+nav ul li a{
+	line-height: 50px;
+	text-decoration: none;
+	display: inline-block;
+	height: inherit;
+	color: white;
+}
+
+.log{
+	position: absolute;
+	top:200px;
+	left: 375px;
+
+}
+.logmenu{
+	width: 600px;
+	height: 300px;
+	background-color: rgba(31, 26, 21, 0.74);
+
+}
+.logicon{
+	position:absolute;
+	right: 10px;
+	top: 10px;
+}
+
+.logsub{
+	text-align: center;
+	font-size: 30px;
+}
+.logform{
+	
+	position: absolute;
+	top: 10px;
+	left: 150px;
+	font-size:20px;
+}
+.logform .logbtn {
+	text-align:center;
+	position: absolute;
+	left: 39%;
+}
+.logo {
+	padding-left:  20px;
+	float: left;
+	font-size: 20px;
+	font-weight: 700;
+	letter-spacing: 1px;
+
+
+}
+
+.logo a {
+		color: #fff;
+	}
+.logo a:hover { color: #aaa}
+
+#banner{
+	background-color: transparent;
+	height: 700px;
+
+}
+
+
+#banner .inner{
+	max-width: 300px;
+	text-align: center;
+	margin: 0 auto;
+	position: relative;
+	top: 160px;
+	color: white;
+}
+
+#banner .inner h1{ 
+	margin: 0;
+}
+
+#banner button {
+	border: none;
+	background: #333;
+	color: #eee;
+	padding: 8px;
+}
+
+#banner .next{
+	text-align: center;
+	position: relative;
+	top: 350px;
+	width: 300px;
+	margin: 0 auto;
+}
+
+.sub-heading{
+  line-height: 30px;
+  margin: 25px;
+  font-size:20px;
+  text-align: center;
+}
+
+.green-section{
+	background-color: #089DB0;
+	color:white;
+
+	padding: 40px 0;
+	height: 500px;
+	position: relative;
+}
+
+.green-section a
+{
+	text-decoration:none;
+	color:#fff;
+}
+.green-section a:visited {color:#fff;}
+.green-section a:hover {
+	color: #aaa;
+}
+
+.wrapper
+{
+	max-width: 1080px;
+	margin: 0 auto;
+
+}
+h2{
+text-align: center;
+font-size: 30px;
+}
+.green-section .hr{
+	background-color: #078494;
+	width: 60%;
+}
+.hr{
+	width: 100%;
+	height: 2px;
+	margin:  0 auto;
+}
+
+.green-section .icon-group .icon{
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+	background-color: #82C5CE;
+	transform: rotate(45deg);
+ 	margin: 50px;
+}
+
+.green-section .icon-group
+{
+	position: absolute;
+	bottom: 20px;
+	left: 30%;
+}
+.green-section .main-entry{
+	position: absolute;
+  	left: 25%;
+  	height: 260px;
+  	overflow:hidden;
+}
+
+.addbutton{
+	position: absolute;
+
+  	left: 47%;
+  	bottom: 100px;
+}
+.xgbutton
+{
+	position: absolute;
+  	left: 47%;
+  	  	bottom: 100px;
+}
+.commit-div{
+	background-color:rgb(161, 140, 157);
+	color:#fff;
+	position: relative;
+
+}
+.commit-div .abs{
+	position: absolute;
+	left: 20px;
+
+}
+.commit-div .float{
+	height: 50%;
+}
+
+.commit-div .float >div{
+	float: left;
+	font-size: 0;
+}
+.commit-div .img-section{
+	height: 100%;
+	width: 45%;
+}
+.commit-div .img-section img{
+	height: 100%;
+	width: 100%;
+}
+
+.commit-div .test-section{
+	width: 45%;
+	max-height: 100%;
+}
+
+.commit-div .float:nth-child(1)
+{
+	background-color: rgba(255,255,255,0.2);
+}
+.commit-div .test-section form input:first{
+height: 20px;
+width: 300px;
+font-size: 15px;
+}
+.commit-div .test-section form .submit{
+	height: 20px;
+	width: 60px;
+	font-size: 15px;
+}
+.commit-div .test-section form textarea
+{
+	height: 50px;
+	width: 500px;
+}
+.commit-div .ke-container{
+	margin-left: 30px;
+	margin-top: 10px;
+}
+
+.gray-section{
+	background-color: #252f34;
+	color: #fff;
+
+}
+.gray-section .article-preview
+{
+	height: 50%;
+}
+
+.gray-section .img-section{
+
+	width: 45%;
+	height: 100%;
+}
+
+
+.img-section img{
+	width: 100%;
+	height: 100%;
+}
+
+.gray-section .test-section
+{
+	width: 55%;
+
+
+
+}
+
+
+.test-section h2{
+	margin-bottom: 20px;
+}
+.test-section p{
+	font-size: 18px;
+	letter-spacing: 1px;
+}
+
+.gray-section .article-preview >div
+{
+	float: left;
+	/*font-size: 0;*/
+}
+
+
+.clear:after,.gray-section .article-preview:after,.commit-div .float:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+
+.gray-section .article-preview:nth-child(odd)
+{
+	background-color: rgba(255,255,255,0.05);
+}
+
+.com1{
+	padding-left: 100px;
+}
+.com2{
+	padding-left: 100px;
+}
+
+.purple-section{
+	padding: 80px;
+	background-color: #3f3965;
+	color: white;
+	text-align: center;
+}
+.purple-section .heading-wrapper{
+
+}
+
+.heading-wrapper .hr {
+	width: 50%;
+  background-color: rgb(54, 48, 90);}
+
+
+.card
+ {
+
+ 	float: left;
+ 	width: 50%;
+ 	min-height: 250px;
+ 	padding: 50px;
+ 	box-sizing:border-box;
+ 	/*border: 1px white solid;*/
+ }
+
+ .card h3{
+ 	font-size: 24px;
+ }
+
+ .card p {
+ 	font-size: 18px;
+ 	letter-spacing: 1px;
+ }
+ .heading-wrapper
+ {  width: 900px;
+  margin: 0 auto;}
+
+ .card:first-child{
+ 	background-color: rgba(0,0,0,0.04);
+ }
+ .card:nth-child(2){
+ 	background-color: rgba(0,0,0,0.08);
+ }
+ .card:nth-child(3){
+ 	background-color: rgba(0,0,0,0.12);
+ }
+  .card:nth-child(4){
+ 	background-color: rgba(0,0,0,0.16);
+ }
+  .card:nth-child(5){
+ 	background-color: rgba(0,0,0,0.20);
+}
+  .card:nth-child(6){
+ 	background-color: rgba(0,0,0,0.24);
+}
+
+
+footer{
+	background-color: #2B063A;
+	color: white;
+	height: 150px;
+	text-align: center;
+}
+ul
+{
+	margin: 0;
+}
+ul .share-group{
+	display: block;
+	margin: 0 auto;
+	width: 1080px;
+	padding: 50px;
+}
+.share-group li{
+	display: inline-block;
+	padding: 20px;
+	margin-top: 10px
+}
+.copy
+{
+	margin-top: 27px
+}
+.main-wrapper
+{
+	background: #444 url(../img/Koala.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+
+
+
+.sidebar-wrapper { position: relative; height: 100%; overflow: auto;}
+#dowebok { background-color: #C73949;}
+#dowebok .nav { margin-top: 50px; line-height: 40px; list-style-type: none;}
+#dowebok .nav a { display: block; padding: 0 20px; color: #fff; text-decoration: none;}
+#dowebok .nav a:hover { background-color: #A35252;;}
+
+#ce5 { background-color: #C73949;}
+#ce5 .nav { margin-top: 50px; line-height: 40px; list-style-type: none;}
+#ce5 .nav a { display: block; padding: 0 20px; color: #fff; text-decoration: none;}
+#ce5 .nav a:hover { background-color: #A35252;;}
+
+[data-simplersidebar='active'] { box-shadow: 3px 0px 3px 0px rgba(0, 0, 0, 0.5);}
+
+#ce2  { background-color: #059AAA;}
+#ce2  .nav { margin-top: 50px; line-height: 40px; list-style-type: none;}
+#ce2  .nav a { display: block; padding: 0 20px; color: #fff; text-decoration: none;}
+#ce2 .nav a:hover { background-color: #044E58;}
+
+#ce2opener
+{
+	position: absolute;
+	left: 30px;
+	top: 25px;
+}
+#ce3  { background-color: #059AAA;}
+#ce3  .nav { margin-top: 50px; line-height: 40px; list-style-type: none;}
+#ce3  .nav a { display: block; padding: 0 20px; color: #fff; text-decoration: none;}
+#ce3 .nav a:hover { background-color: #044E58;}
+#ce3opener
+{
+	position: absolute;
+	left: 30px;
+	top: 70px;
+}
+
+#ce4  { background-color: #059AAA;}
+#ce4  .nav { margin-top: 50px; line-height: 40px; list-style-type: none;}
+#ce4  .nav a { display: block; padding: 0 20px; color: #fff; text-decoration: none;}
+#ce4 .nav a:hover { background-color: #044E58;}
+
+
+.main-view{
+	background-color: #059AAA;
+	position: relative;
+	color:white;
+	padding-top: 50px;
+}
+
+.subject{
+
+  	margin-top: 0;
+	text-align: center;
+}
+.main-view .hr{
+	background-color: #078494;
+	width: 60%;
+	margin-bottom: 20px;
+}
+
+
+.main-view .body
+{
+	padding-left: 207px;
+  	margin: 0;
+  	max-width: 70%;
+  	font-size: 20px;
+}
+.main-view span a{
+	text-decoration: none;
+	padding-left: 30px;
+}
+.main-view span a:visited{
+	color:#fff;
+}
+.main-view span a:hover{
+	color:#aaa;
+}
+.main-view .sub-heading{
+	text-align: center;
+}
+
+.view-comments{
+	background-color:rgb(203, 161, 195);
+	position: relative;
+	color:white;
+	padding-top: 50px;
+}
+.view-comments .hr{
+	background-color: #BB7EA3;
+	width: 60%;
+	margin-bottom: 40px;
+}
+.comments-list{
+
+	text-decoration: none;
+	list-style: none;
+	width: 70%;
+	padding-left: 207px;
+	font-size: 20px;
+}
+
+.install-list{
+	padding-left: 250px;
+	width: 65%;
+}
+
+.view-comments .title{
+	font-size: 22px;
+}
+
+#install{
+	font-size: 20px;
+}
+
+.classimg:hover{
+	width: 50px;
+	height: 50px;
+}
+
+.logname:hover{
+	font-size: 25px;
+	background-color: #aaa;
+}
+#view_img{
+	position: absolute;
+	top:20px;
+}
